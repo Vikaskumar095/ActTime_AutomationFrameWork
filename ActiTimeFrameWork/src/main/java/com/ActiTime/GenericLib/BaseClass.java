@@ -13,6 +13,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import com.ActiTime.GenericLib.FileUtility;
+import com.ActiTime.ObjectRepositiory.LoginActiTime;
+import com.ActiTime.ObjectRepositiory.LogoutActiTime;
 public class BaseClass
 {
 	public WebDriver driver;
