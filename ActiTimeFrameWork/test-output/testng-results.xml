@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[-----db running-----]]>
+    </line>
+    <line>
+      <![CDATA[----dbClosing-------]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8923" started-at="2019-07-04T09:56:04Z" finished-at="2019-07-04T09:56:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8923" started-at="2019-07-04T09:56:04Z" finished-at="2019-07-04T09:56:12Z">
+      <class name="com.ActiTime.TestScripts.ValidateCreateNewTaskTest">
+        <test-method status="PASS" signature="databaseRunning()[pri:0, instance:com.ActiTime.TestScripts.ValidateCreateNewTaskTest@6a4f787b]" name="databaseRunning" is-config="true" duration-ms="19" started-at="2019-07-04T09:56:04Z" finished-at="2019-07-04T09:56:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[-----db running-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- databaseRunning -->
+        <test-method status="PASS" signature="launchBowser()[pri:0, instance:com.ActiTime.TestScripts.ValidateCreateNewTaskTest@6a4f787b]" name="launchBowser" is-config="true" duration-ms="3642" started-at="2019-07-04T09:56:04Z" finished-at="2019-07-04T09:56:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBowser -->
+        <test-method status="PASS" signature="actiLogin()[pri:0, instance:com.ActiTime.TestScripts.ValidateCreateNewTaskTest@6a4f787b]" name="actiLogin" is-config="true" duration-ms="876" started-at="2019-07-04T09:56:07Z" finished-at="2019-07-04T09:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actiLogin -->
+        <test-method status="PASS" signature="validateNewTask()[pri:1, instance:com.ActiTime.TestScripts.ValidateCreateNewTaskTest@6a4f787b]" name="validateNewTask" duration-ms="3392" started-at="2019-07-04T09:56:08Z" finished-at="2019-07-04T09:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewTask -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.ActiTime.TestScripts.ValidateCreateNewTaskTest@6a4f787b]" name="logout" is-config="true" duration-ms="236" started-at="2019-07-04T09:56:12Z" finished-at="2019-07-04T09:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.ActiTime.TestScripts.ValidateCreateNewTaskTest@6a4f787b]" name="closeBrowser" is-config="true" duration-ms="742" started-at="2019-07-04T09:56:12Z" finished-at="2019-07-04T09:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeSuit()[pri:0, instance:com.ActiTime.TestScripts.ValidateCreateNewTaskTest@6a4f787b]" name="closeSuit" is-config="true" duration-ms="0" started-at="2019-07-04T09:56:13Z" finished-at="2019-07-04T09:56:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[----dbClosing-------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeSuit -->
+      </class> <!-- com.ActiTime.TestScripts.ValidateCreateNewTaskTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
