@@ -17,7 +17,7 @@ import com.ActiTime.ObjectRepositiory.LoginActiTime;
 import com.ActiTime.ObjectRepositiory.LogoutActiTime;
 public class BaseClass
 {
-	public WebDriver driver;
+	public static WebDriver driver;
 	public FileUtility data = new FileUtility();
 @BeforeSuite
 public void databaseRunning()

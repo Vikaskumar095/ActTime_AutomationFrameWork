@@ -5,6 +5,7 @@
     <classes>
       <class name="com.ActiTime.TestScripts.ValidateCreateNewTaskTest"/>
       <class name="com.ActiTime.TestScripts.CreateNewUserTest"/>
+      <class name="com.ActiTime.TestScripts.TestingFailureTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
